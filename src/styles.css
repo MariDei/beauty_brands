@@ -254,6 +254,12 @@ body {
     font-size: 20px;
   }
 
+  .navbar-toggler {
+    border-color: var(--primary-color);
+    background-color: var(--primary-color);
+    opacity: 0.5;
+  }  
+
   .hero-title {
     font-size: 28px;
     line-height: 1;
