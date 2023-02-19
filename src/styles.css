@@ -270,11 +270,13 @@ body {
   .hero-title {
     font-size: 28px;
     line-height: 1;
+    margin-top: 30px
   }
 
   .buttons-hero {
     min-width: 330px;
     margin: 5px 0;
+    margin-top: 30px;
   }  
 
   .button-title {
@@ -287,6 +289,7 @@ body {
     font-weight: 600;
     margin: 5px 0;
     width: 130px;
+    margin-bottom: 30px;
   }
 
   .brand-title {
