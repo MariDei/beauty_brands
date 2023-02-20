@@ -109,7 +109,6 @@ body {
     font-size: 18px;
     font-weight: 400;
     text-align: center;
-    margin: 10px 0;
 }
 
 .brand-text-black {
@@ -128,7 +127,7 @@ body {
 }
 
 .image-product-list {
-    margin: 10px 15px;
+    margin: auto 10px;
 }
 
 .image-product-list:hover,
@@ -142,7 +141,6 @@ body {
     font-weight: 400;
     text-align: center;
     text-decoration: none;
-    line-height: 0.5;   
 }
 
 .product-list-text {
@@ -163,7 +161,7 @@ body {
     font-size: 20px;
     font-weight: 400;
     border: 1px solid var(--primary-color);
-    margin: 10px 5px;
+    margin: 5px auto;
     border-radius: 5px;
     padding: 3px 3px;
     width: 150px;
@@ -220,7 +218,7 @@ body {
 
 .footer {
     color: var(--secondary-color); 
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 300;
     text-align: center;
 }
@@ -242,6 +240,19 @@ body {
     font-weight: 600;
 } 
 
+.arrow {
+    display: flex;
+    float: right;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-size: 20px;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    padding: 7px 10px;
+    margin: 0 5px;
+    opacity: 0.5;
+}
+
 @media (max-width: 900px) {
   html {
     overflow-x: hidden;
@@ -249,6 +260,7 @@ body {
 
   body {
     overflow-x: hidden;
+    overflow-y: hidden;
   }
 
   .hero-container,
@@ -270,18 +282,18 @@ body {
   .hero-title {
     font-size: 28px;
     line-height: 1;
-    margin-top: 30px
+    margin-top: 20px
   }
 
   .buttons-hero {
     min-width: 330px;
     margin: 5px 0;
-    margin-top: 30px;
   }  
 
   .button-title {
     font-size: 22px;
     min-width: 200px;
+    margin: 10px auto;
   }
  
   .button-hero {
@@ -289,7 +301,6 @@ body {
     font-weight: 600;
     margin: 5px 0;
     width: 130px;
-    margin-bottom: 30px;
   }
 
   .brand-title {
@@ -315,10 +326,16 @@ body {
   .product-list-text,
   .product-list-text-light {
     font-size: 10px; 
-    line-height: 0.5;
+    line-height: 0.2;
   }
 
   .brand-button {
     font-size: 16px;
+  }
+
+  .hero-image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
   }
 }
