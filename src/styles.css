@@ -334,6 +334,11 @@ ul {
     font-size: 14px;
   }
 
+  .brand-text-black, 
+  .brand-text-light {
+    margin: 15px 0;
+  }
+
   .col-5 {
     min-width: 350px;
   }
@@ -343,9 +348,8 @@ ul {
   }
 
   .product-list-text,
-  .product-list-text-light {
-    font-size: 10px; 
-    line-height: 0.2;
+  .product-list-text-light { 
+    font-size: 12px;
   }
 
   .brand-button {
