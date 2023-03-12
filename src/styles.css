@@ -106,7 +106,7 @@ body {
     font-size: 16px;
     font-weight: 400;
     text-align: justify;
-    margin: 30px 0 15px 0;
+    margin: 50px 0 15px 0;
 }
 
 .brand-text-black {
@@ -139,7 +139,7 @@ ul {
 }
 
 .image-product-list {
-    margin: auto 10px;
+    margin: auto 20px;
 }
 
 .image-product-list:hover,
@@ -149,10 +149,11 @@ ul {
 
 .product-list-text,
 .product-list-text-light {
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 400;
     text-align: center;
     text-decoration: none;
+    line-height: 0.5;
 }
 
 .product-list-text {
@@ -294,7 +295,7 @@ ul {
   .hero-title {
     font-size: 28px;
     line-height: 1;
-    margin-top: 20px
+    margin: 15px 0;
   }
 
   .buttons-hero {
